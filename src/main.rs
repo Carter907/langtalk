@@ -31,5 +31,7 @@ fn main() {
         println!("{}", java_text(first_word, other_text));
     } else if args.is_csharp {
         println!("{}", csharp_text(first_word, other_text));
+    } else {
+        println!("{}", java_text(first_word, other_text));
     }
 }
