@@ -1,6 +1,6 @@
 ### Langtalk
 
-mess with your friend on discord with this app.
+mess with your friend on discord with this talk-in-code cli app.
 
 #### Installing
 ```
