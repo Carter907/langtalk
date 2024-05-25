@@ -16,9 +16,9 @@ struct Args {
     // #[arg(short, long, default_value_t = 1)]
     // count: u8,
     //
-    #[arg(short, long, default_value_t = true)]
+    #[arg(short, long = "java", default_value_t = true)]
     is_java: bool,
-    #[arg(short, long, default_value_t = false)]
+    #[arg(short, long = "csharp", default_value_t = false)]
     is_csharp: bool,
 }
 
